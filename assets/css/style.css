@@ -23,6 +23,9 @@ main{
   margin-left: 40px;
   margin-right: 10px;
 }
+.parrafoPrincipal{
+  color: #BEC1BB;
+}
 
 /* .avatarPrinciapl{
   width: 20px;
@@ -32,22 +35,25 @@ main{
 
 .nuevo-chat {
   justify-content: center;
-  
-  padding-top: 30px;
-  padding-bottom: 30px;
+  margin: 5px;
 }
 
 .nuevo-chat .btn {
   padding: 10px;
   background-color: #A491D2;
   color: white;
+  text-align: center;
+  justify-content: center
+  border-top: solid 1px grey;
 }
 
-.bg-primary {
-  background-color: #f4e9de;
+/* .bg-primary {
+  background-color: #BEC1BB;
   
+} */
+.flex-v{
+  border: solid 1px grey;
 }
-
 .btn {
   border: 0;
   padding: 0.8em 0;
@@ -75,11 +81,8 @@ h5, p {
   border-radius: 50%;
   margin-right: 10px;
   height: 50px;
-  margin-left: 16px;
-  
-  
+  margin-left: 16px;  
 }
-
 
 .user-card-principal {
   display: flex;
@@ -88,7 +91,11 @@ h5, p {
   height: 65px;
 }
 .iconDerecha{
+  margin-right: 25px;
+}
+.iconIzq{
   margin-right: 10px;
+
 }
 
 .user-card-principal .left {
